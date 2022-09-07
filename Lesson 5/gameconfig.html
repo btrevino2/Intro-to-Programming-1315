@@ -1,0 +1,47 @@
+<a href=index.html>Index</a>
+<a href=student.html>Student</a>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+<h1>Game Configuration</h1>
+<form action-"ttps://www..w3schools.com/action_page.php" method="get">
+Number of monsters to spawn:
+<input type="number" name="howmanymonsters" min="5" max="20">
+<br>
+
+<p>Should the monsters respawn after being vanquished?
+<br>
+<input type="radio" name="respawn" value="respawnbase"checked> Yes, respawn back at monster base<br>
+<input type="radio" name="respawn" value="respawnrandom"> Yes, respawn at random location<br>
+<input type="radio" name="respawn" value="norespawn"> No respawn <br> 
+</p>
+
+<h3>Monster Types</h3>
+<p>Which of the following monsters should be spawned?<br>
+<input type="checkbox" name="gremlin" value="gremlin"> Small Gremlin<br>
+<input type="checkbox" name="chimera" value="chimera"> Greek Chimera <br>
+<input type="checkbox" name="minotuar" value="minotaur"> Labrinth Minotaur<br>
+<input type="checkbox" name="golddragon" value="golddragon"> Gold Dragon<br>
+<input type="checkbox" name="reddragon" value="reddragon"> Red Dragon<br>
+</p>
+
+<h3>Hero Configuation</h3>
+<p>Which race of hero should you be?
+    <select name="hero">
+      <option value="null">--Select--</option> 
+      <option value="human">Human</option>
+      <option value="dwarf">Drawf</option>
+      <option value="hafling">Hafling</option>
+      <option value="elf">Noble Elf</option>
+      <option value="gnome">Gnome</option>
+    </select>
+</p>
+
+<input type="submit" value="Save">
+  
+</form>
+  </body>
+</html>
